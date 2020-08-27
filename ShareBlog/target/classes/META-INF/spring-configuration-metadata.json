@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "com.shareblog.utils.JwtUtil",
+      "sourceType": "com.shareblog.utils.JwtUtil"
+    },
+    {
+      "name": "login.config",
+      "type": "com.shareblog.filter.JwtFilter",
+      "sourceType": "com.shareblog.filter.JwtFilter"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.key",
+      "type": "java.lang.String",
+      "sourceType": "com.shareblog.utils.JwtUtil",
+      "defaultValue": "yangwujun"
+    },
+    {
+      "name": "jwt.config.ttl",
+      "type": "java.lang.Long",
+      "sourceType": "com.shareblog.utils.JwtUtil"
+    },
+    {
+      "name": "login.config.jwt-util",
+      "type": "com.shareblog.utils.JwtUtil",
+      "sourceType": "com.shareblog.filter.JwtFilter"
+    },
+    {
+      "name": "login.config.url",
+      "type": "java.lang.String",
+      "sourceType": "com.shareblog.filter.JwtFilter"
+    }
+  ],
+  "hints": []
+}
